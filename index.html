@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ReachMax Digital Marketing — creative design, advertising, and branding that drives results." />
+  <title>ReachMax Digital Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="nav__brand" href="#home">
+        <span class="logo-badge" aria-hidden="true">
+          <img src="images/logo.png" alt="ReachMax Digital Marketing logo" class="nav__logo" width="160" height="48" />
+        </span>
+      </a>
+      <button type="button" class="nav__toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <ul class="nav__links" id="primary-menu">
+        <li><a href="#home" class="nav__link" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav__link" data-section="about">About</a></li>
+        <li><a href="#services" class="nav__link" data-section="services">Services</a></li>
+        <li><a href="#founder" class="nav__link" data-section="founder">Founder</a></li>
+        <li><a href="#portfolio" class="nav__link" data-section="portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav__link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__shapes" aria-hidden="true">
+        <span class="hero__shape hero__shape--1"></span>
+        <span class="hero__shape hero__shape--2"></span>
+        <span class="hero__shape hero__shape--3"></span>
+      </div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow hero-anim" data-delay="0">ReachMax Digital Marketing</p>
+        <h1 id="hero-title" class="hero__title hero-anim" data-delay="1">
+          Grow Your Business with <span class="hero__accent">ReachMax</span>
+        </h1>
+        <p class="hero__subtitle hero-anim" data-delay="2">We Create Results</p>
+        <a href="#contact" class="btn btn--primary hero__cta hero-anim" data-delay="3">
+          Get Started
+        </a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__content reveal reveal--slide">
+          <h2 class="section__title">About ReachMax</h2>
+          <p class="about__lead">
+            ReachMax is a digital marketing agency that helps businesses grow through creative design,
+            advertising, and branding solutions. We focus on delivering real results for our clients.
+          </p>
+          <div class="mission mission--accent reveal reveal--slide" data-delay="1">
+            <h3 class="mission__title"><i class="fa-solid fa-bullseye" aria-hidden="true"></i> Our mission</h3>
+            <p class="mission__text">
+              We partner with brands to elevate their presence online—combining strategy, creativity, and
+              execution so you can reach your next level of growth with clarity and confidence.
+            </p>
+          </div>
+        </div>
+        <div class="about__visual reveal reveal--slide" data-delay="1">
+          <div class="about__icon-card" aria-hidden="true">
+            <div class="about__rings">
+              <span class="about__ring about__ring--1"></span>
+              <span class="about__ring about__ring--2"></span>
+            </div>
+            <i class="fa-solid fa-chart-line about__fa-icon"></i>
+            <img src="images/services/creative.jpg" alt="" class="about__thumb" loading="lazy" width="400" height="260" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Services</h2>
+          <p class="section__subtitle">Full-funnel creative and growth support tailored to your brand.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal reveal--slide">
+            <div class="service-card__icon"><i class="fa-solid fa-pen-nib" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Logo Creation</h3>
+            <p class="service-card__text">Distinctive marks and identity systems that feel premium and memorable.</p>
+          </article>
+          <article class="service-card reveal reveal--slide" data-delay="1">
+            <div class="service-card__icon"><i class="fa-solid fa-image" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Poster Making</h3>
+            <p class="service-card__text">High-impact visuals for launches, events, and campaigns that stop the scroll.</p>
+          </article>
+          <article class="service-card reveal reveal--slide" data-delay="2">
+            <div class="service-card__icon"><i class="fa-solid fa-video" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Video Shoot</h3>
+            <p class="service-card__text">On-brand filming with clear storytelling and polished production value.</p>
+          </article>
+          <article class="service-card reveal reveal--slide">
+            <div class="service-card__icon"><i class="fa-solid fa-scissors" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Video Editing</h3>
+            <p class="service-card__text">Tight edits, motion, and sound design built for social and ads.</p>
+          </article>
+          <article class="service-card reveal reveal--slide" data-delay="1">
+            <div class="service-card__icon"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Meta Ads Management</h3>
+            <p class="service-card__text">Structured testing, creative iteration, and performance reporting you can trust.</p>
+          </article>
+          <article class="service-card reveal reveal--slide" data-delay="2">
+            <div class="service-card__icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Website Creation</h3>
+            <p class="service-card__text">Fast, responsive sites engineered for conversions and brand credibility.</p>
+          </article>
+          <article class="service-card reveal reveal--slide">
+            <div class="service-card__icon"><i class="fa-solid fa-user-tie" aria-hidden="true"></i></div>
+            <h3 class="service-card__title">Personal Branding</h3>
+            <p class="service-card__text">Positioning, content direction, and visual consistency for leaders and creators.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section founder" id="founder">
+      <div class="container founder__wrap">
+        <div class="section__head reveal">
+          <h2 class="section__title">Founder &amp; CEO</h2>
+          <p class="section__subtitle">Leadership focused on measurable growth and world-class creative.</p>
+        </div>
+        <article class="founder-card reveal reveal--slide">
+          <div class="founder-card__media">
+            <span class="founder-card__ring" aria-hidden="true"></span>
+            <img src="images/founder.jpg" alt="Portrait of Sriram, Founder and CEO" class="founder-card__img" width="220" height="220" loading="lazy" />
+          </div>
+          <div class="founder-card__body">
+            <h3 class="founder-card__name">Sriram & Mani</h3>
+            <p class="founder-card__role">Founder &amp; CEO – ReachMax Digital Marketing</p>
+            <p class="founder-card__bio">
+              Sriram is the founder and CEO of ReachMax. He specializes in digital marketing, branding, and business
+              growth strategies. His mission is to help businesses reach maximum success through creative marketing solutions.
+            </p>
+            <div class="social founder-card__social" aria-label="Founder social links">
+              <a class="social__link" href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+              <a class="social__link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+              <a class="social__link" href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Portfolio</h2>
+          <p class="section__subtitle">A snapshot of creative work across branding, campaigns, and digital experiences.</p>
+        </div>
+        <div class="portfolio__filters reveal" role="tablist" aria-label="Filter portfolio">
+          <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="filter-btn" data-filter="logo" role="tab" aria-selected="false">Logo</button>
+          <button type="button" class="filter-btn" data-filter="poster" role="tab" aria-selected="false">Poster</button>
+          <button type="button" class="filter-btn" data-filter="video" role="tab" aria-selected="false">Video</button>
+          <button type="button" class="filter-btn" data-filter="website" role="tab" aria-selected="false">Website</button>
+        </div>
+        <div class="portfolio__grid">
+          <article class="portfolio-item reveal reveal--slide" data-category="logo">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/logo-1.jpg" alt="Mountain Peak identity preview" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Mountain Peak</h3>
+                <span class="portfolio-item__cat">Logo</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-delay="1" data-category="logo">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/logo-2.jpg" alt="Nova Labs wordmark study" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Nova Labs</h3>
+                <span class="portfolio-item__cat">Logo</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-category="poster">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/poster-1.jpg" alt="Summer launch poster design" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Summer Launch</h3>
+                <span class="portfolio-item__cat">Poster</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-delay="1" data-category="poster">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/poster-2.jpg" alt="Event series poster grid" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Event Series</h3>
+                <span class="portfolio-item__cat">Poster</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-category="video">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/video-1.jpg" alt="Brand story film still" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Brand Story Film</h3>
+                <span class="portfolio-item__cat">Video</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-delay="1" data-category="video">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/video-2.jpg" alt="Product showcase reel still" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Product Showcase</h3>
+                <span class="portfolio-item__cat">Video</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-category="website">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/website-1.jpg" alt="Analytics dashboard website concept" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">Analytics Hub</h3>
+                <span class="portfolio-item__cat">Website</span>
+              </div>
+            </div>
+          </article>
+          <article class="portfolio-item reveal reveal--slide" data-delay="1" data-category="website">
+            <div class="portfolio-item__media">
+              <img src="images/portfolio/website-2.jpg" alt="SaaS landing page layout" width="600" height="400" loading="lazy" />
+              <div class="portfolio-item__overlay">
+                <h3 class="portfolio-item__title">SaaS Landing</h3>
+                <span class="portfolio-item__cat">Website</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info reveal reveal--slide">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact__text">Tell us about your goals—we’ll follow up with next steps.</p>
+          <ul class="contact__list">
+            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:hello@reachmax.example">hello@reachmax.example</a></li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+919345987661">+91 93459 87661</a></li>
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> <span>India</span></li>
+          </ul>
+          <div class="social contact__social" aria-label="Contact social links">
+            <a class="social__link" href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a class="social__link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="social__link" href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <form class="contact__form form reveal reveal--slide" data-delay="1" id="contact-form" novalidate>
+          <div class="form__row">
+            <label class="form__label" for="contact-name">Name</label>
+            <input class="form__input" type="text" id="contact-name" name="name" autocomplete="name" required placeholder="Your name" />
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="contact-email">Email</label>
+            <input class="form__input" type="email" id="contact-email" name="email" autocomplete="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="contact-message">Message</label>
+            <textarea class="form__input form__textarea" id="contact-message" name="message" rows="5" required placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary form__submit">
+            <span class="form__submit-text">Send message</span>
+            <span class="form__submit-icon" aria-hidden="true"><i class="fa-solid fa-paper-plane"></i></span>
+          </button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <span class="logo-badge logo-badge--footer" aria-hidden="true">
+          <img src="images/logo.png" alt="ReachMax" class="footer__logo" width="140" height="42" loading="lazy" />
+        </span>
+        <p class="footer__tagline">Creative marketing that scales with your ambition.</p>
+      </div>
+      <div class="footer__links">
+        <h3 class="footer__heading">Quick links</h3>
+        <nav aria-label="Footer">
+          <ul class="footer__list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#founder">Founder</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__social-wrap">
+        <h3 class="footer__heading">Connect</h3>
+        <div class="social footer__social" aria-label="Footer social links">
+          <a class="social__link" href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a class="social__link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a class="social__link" href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p class="footer__copy">&copy; 2026 ReachMax Digital Marketing. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="tel:+919345987661" class="call-btn" aria-label="Call ReachMax now">
+    <span class="call-btn__pulse" aria-hidden="true"></span>
+    <span class="call-btn__icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></span>
+    <span class="call-btn__text">Call Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
